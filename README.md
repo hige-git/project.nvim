@@ -1,4 +1,8 @@
+**Forked from the repo [ahmedkhalf/project.nvim](https://github.com/ahmedkhalf/project.nvim) for personal fixes.
+Original description:**
+
 # 🗃️ project.nvim
+
 
 **project.nvim** is an all in one neovim plugin written in lua that provides
 superior project management.
