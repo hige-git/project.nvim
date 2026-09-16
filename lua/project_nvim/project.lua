@@ -171,6 +171,8 @@ end
 
 function M.set_pwd(dir, method)
   if dir ~= nil then
+    dir = dir:gsub("^oil://", "")
+
     M.last_project = dir
     table.insert(history.session_projects, dir)
 
